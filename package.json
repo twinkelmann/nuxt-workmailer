@@ -1,8 +1,8 @@
 {
-  "name": "nuxt-nodemailer",
+  "name": "nuxt-workmailer",
   "version": "1.1.2",
-  "description": "nodemailer Nuxt Module",
-  "repository": "kleinpetr/nuxt-nodemailer",
+  "description": "nodemailer Nuxt Module with Worker support",
+  "repository": "twinkelmann/nuxt-workmailer",
   "license": "MIT",
   "author": {
     "name": "Petr Klein",
@@ -48,7 +48,8 @@
     "@nuxt/kit": "^3.11.2"
   },
   "peerDependencies": {
-    "nodemailer": "^6.9.13"
+    "nodemailer": "^6.9.13",
+    "worker-mailer": "^1.1.1"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.3.2",
@@ -63,6 +64,8 @@
     "nodemailer": "^6.9.13",
     "nuxt": "^3.11.2",
     "typescript": "latest",
-    "vue-tsc": "^2.0.19"
-  }
+    "vue-tsc": "^2.0.19",
+    "worker-mailer": "^1.1.1"
+  },
+  "packageManager": "pnpm@10.7.1+sha512.2d92c86b7928dc8284f53494fb4201f983da65f0fb4f0d40baafa5cf628fa31dae3e5968f12466f17df7e97310e30f343a648baea1b9b350685dafafffdf5808"
 }
