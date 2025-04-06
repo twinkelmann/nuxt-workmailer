@@ -27,9 +27,9 @@ export const useNodeMailer = () => {
             username: nodemailer.auth.user,
             password: nodemailer.auth.pass,
           },
-          authType:
-            (String(nodemailer.authMethod).toLowerCase() as AuthType)
-            || 'plain',
+          authType: nodemailer.authMethod
+            ? (String(nodemailer.authMethod).toLowerCase() as AuthType)
+            : 'plain',
           host: nodemailer.host,
           port: nodemailer.port,
           secure: nodemailer.secure,
