@@ -1,6 +1,6 @@
 import type SMTPTransport from 'nodemailer/lib/smtp-transport'
+import type { AuthType } from 'worker-mailer'
 import { useRuntimeConfig } from '#imports'
-import { AuthType } from 'worker-mailer'
 
 export const useNodeMailer = () => {
   const { nodemailer } = useRuntimeConfig()
@@ -17,7 +17,8 @@ export const useNodeMailer = () => {
       })
       transport.close()
       return res
-    } else {
+    }
+    else {
       // Production: Use worker-mailer in Cloudflare Workers environment
       const { WorkerMailer } = await import('worker-mailer')
       await WorkerMailer.send(
@@ -27,8 +28,8 @@ export const useNodeMailer = () => {
             password: nodemailer.auth.pass,
           },
           authType:
-            (String(nodemailer.authMethod).toLowerCase() as AuthType) ||
-            'plain',
+            (String(nodemailer.authMethod).toLowerCase() as AuthType)
+            || 'plain',
           host: nodemailer.host,
           port: nodemailer.port,
           secure: nodemailer.secure,
