@@ -1,0 +1,8 @@
+# Ignore artifacts:
+.data
+.github
+.nuxt
+.output
+node_modules
+pnpm-lock.yaml
+*.md

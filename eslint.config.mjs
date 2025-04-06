@@ -10,15 +10,10 @@ export default createConfigForNuxt({
     stylistic: true,
   },
   dirs: {
-    src: [
-      './playground',
-    ],
+    src: ['./playground'],
+  },
+}).append({
+  rules: {
+    '@typescript-eslint/ban-ts-comment': 'off',
   },
 })
-  .append(
-    {
-      rules: {
-        '@typescript-eslint/ban-ts-comment': 'off',
-      },
-    },
-  )
