@@ -1,5 +1,43 @@
 # Changelog
 
+## v1.1.4
+
+[compare changes](https://github.com/kleinpetr/nuxt-nodemailer/compare/v1.1.2...v1.1.4)
+
+### 🩹 Fixes
+
+- Linter and package config ([5901148](https://github.com/kleinpetr/nuxt-nodemailer/commit/5901148))
+
+### 🏡 Chore
+
+- Update README.md ([0238dae](https://github.com/kleinpetr/nuxt-nodemailer/commit/0238dae))
+- Add keywords to package.json ([7a6879f](https://github.com/kleinpetr/nuxt-nodemailer/commit/7a6879f))
+- **release:** V1.1.2 ([b97e6bc](https://github.com/kleinpetr/nuxt-nodemailer/commit/b97e6bc))
+
+### ❤️ Contributors
+
+- Klein Petr ([@kleinpetr](http://github.com/kleinpetr))
+
+## v1.1.3
+
+[compare changes](https://github.com/kleinpetr/nuxt-nodemailer/compare/v1.1.2...v1.1.3)
+
+### 🏡 Module Chores
+- Updated README.md
+- Updated to Nodemailer 7
+- Updated all dependencies
+- Removed unused imports
+
+### 🚀 Playground Enhancements
+- Updated to Nuxt 4
+- Added a fetch in App.vue that calls the sendMail server endpoint to test email sending
+- Added logging to sendMail endpoint
+- Added environment variables
+- Rename playground test.ts endpoint to send-mail.ts
+
+### ❤️ Contributors
+
+- Davide Cuni [@Ashrakk](https://github.com/Ashrakk)
 
 ## v1.1.2
 
