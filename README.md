@@ -10,6 +10,8 @@
 > Adds nodemailer to the Nuxt 3 and 4
 > 
 > This module can be used to send emails only from the server-side in Nuxt 3 and 4.
+> 
+> This fork of `nuxt-nodemailer` adds support for Cloudflare workers
 
 ## Features
 - Auto import server composable `useNodeMailer()`
@@ -100,14 +102,14 @@ export default defineEventHandler(() => {
 })
 ```
 
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-nodemailer/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/nuxt-nodemailer
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-workmailer/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt-workmailer
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-nodemailer.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/nuxt-nodemailer
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-workmailer.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/nuxt-workmailer
 
-[license-src]: https://img.shields.io/npm/l/nuxt-nodemailer.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt-nodemailer
+[license-src]: https://img.shields.io/npm/l/nuxt-workmailer.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt-workmailer
 
 [nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?logo=nuxt.js
 [nuxt-href]: https://nuxt.com
