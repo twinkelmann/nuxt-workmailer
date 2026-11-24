@@ -1,5 +1,33 @@
 # Changelog
 
+## v1.3.0
+
+
+### 🚀 Enhancements
+
+- **module:** Init nuxt-nodemailer v1 ([eba6b69](https://github.com/twinkelmann/nuxt-workmailer/commit/eba6b69))
+
+### 🩹 Fixes
+
+- **scripts:** Release script ([7dc58e4](https://github.com/twinkelmann/nuxt-workmailer/commit/7dc58e4))
+- UseRuntimeConfig import ([c3b60c1](https://github.com/twinkelmann/nuxt-workmailer/commit/c3b60c1))
+- Linter and package config ([5901148](https://github.com/twinkelmann/nuxt-workmailer/commit/5901148))
+
+### 🏡 Chore
+
+- **release:** V1.1.0 ([0dacef5](https://github.com/twinkelmann/nuxt-workmailer/commit/0dacef5))
+- **release:** V1.1.1 ([82685da](https://github.com/twinkelmann/nuxt-workmailer/commit/82685da))
+- Update README.md ([0238dae](https://github.com/twinkelmann/nuxt-workmailer/commit/0238dae))
+- Add keywords to package.json ([7a6879f](https://github.com/twinkelmann/nuxt-workmailer/commit/7a6879f))
+- **release:** V1.1.2 ([b97e6bc](https://github.com/twinkelmann/nuxt-workmailer/commit/b97e6bc))
+- **release:** V1.1.4 ([e24d674](https://github.com/twinkelmann/nuxt-workmailer/commit/e24d674))
+- **release:** V1.2.0 ([6de939b](https://github.com/twinkelmann/nuxt-workmailer/commit/6de939b))
+
+### ❤️ Contributors
+
+- Tim Yhrel Winkelmann <twinkelmann@protonmail.com>
+- Klein Petr ([@kleinpetr](http://github.com/kleinpetr))
+
 ## v1.2.0
 
 
