@@ -1,6 +1,6 @@
 {
   "name": "nuxt-workmailer",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "nodemailer Nuxt Module with Worker support",
   "repository": "twinkelmann/nuxt-workmailer",
   "license": "MIT",
