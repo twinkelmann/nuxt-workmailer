@@ -13,11 +13,14 @@ function toUser(address: string | Address): User {
     return { name: address.name, email: address.address }
   }
 
-  const named = address.match(/^\s*"?([^"<]*?)"?\s*<([^>]+)>\s*$/)
+  const open = address.lastIndexOf('<')
+  const close = address.lastIndexOf('>')
 
-  return named
-    ? { name: named[1] || undefined, email: named[2] }
-    : { email: address.trim() }
+  if (open === -1 || close < open) return { email: address.trim() }
+
+  const name = address.slice(0, open).trim().replace(/^"|"$/g, '')
+
+  return { name: name || undefined, email: address.slice(open + 1, close).trim() }
 }
 
 function toUsers(addresses: SMTPTransport.MailOptions['to']) {
